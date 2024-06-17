@@ -14,5 +14,5 @@
 * consise, safe and powerful
 * open source
 
-# How kotlin program runs 
+# How kotlin program runs ?
 first Kotlin code gets compiled useing -> **(Kotlinc-Jvm compiler)** and its byte code is generated after that with the help of -> **(jvm + kotlin runtime jar file)** the output is generated.  
