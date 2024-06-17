@@ -19,3 +19,19 @@ fun main() {
         println(i)
     }
 }
+/*
+----------------Output------------------------
+4
+0 ---> king
+1 ---> two
+2 ---> three
+3 ---> four
+king
+two
+three
+four
+king
+two
+three
+four
+ */
