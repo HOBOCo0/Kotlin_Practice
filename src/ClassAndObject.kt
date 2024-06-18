@@ -20,6 +20,15 @@ class Car(val name: String, val type:String, val KmRan: Int){
         println("Apply Brakes")
     }
 }
+class Person(val name:String, var age:Int){
+
+    fun canVote():String{
+        return if(age > 18)"$name can vote" else "$ name can not vote"
+    }
+}
+
+
+
 
 fun main(){
     val mustang = Car("mustang", "petrol", 1000)
@@ -30,4 +39,18 @@ fun main(){
     println(mustang.KmRan)
     mustang.driveCar()
     mustang.applyBrakes()
+
+    // Let's see in a different way
+
+    val i: Int = 30
+    println(i.plus(50))
+    println(i.div(2))
+
+    val person1 = Person("Aman", 19)
+    val person2 = Person("Apoorva", 17)
+
+    println(person1.canVote())
+    println(person2.canVote())
+    person2.age = 20
+    println(person2.canVote())
 }
