@@ -6,7 +6,7 @@ constructors - Primary and Secondary
 -> they are of three types
     * Default const -- when no parameter is passed default constructor is called
     * primary const -- primary constructor to init the objects
-    * secondary const -- secondary const to init the objects 
+    * secondary const -- secondary const to init the objects
 
 Initializer Block
  -> block which is executed just after creation of the objects or just after constructor is executed
@@ -58,3 +58,28 @@ fun main() {
     ferrari.drive()
     ferrari.brakes()
 }
+
+/*
+-----------------Output----------------------------------------
+from 1st init block Constructor is created
+has airbags true
+from 2nd init block Constructor is created
+the name of the car is mustang
+mustang
+Petrol
+5
+4
+true
+Car is driving
+Applied Brakes
+from 1st init block Constructor is created
+has airbags true
+from 2nd init block Constructor is created
+the name of the car is ferrari
+ferrari
+Diesel
+true
+Car is driving
+Applied Brakes
+
+ */
