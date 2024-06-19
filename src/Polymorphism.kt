@@ -18,6 +18,9 @@ class Circle(private val radius: Int): Shape(){
 }
 class Square(private val side: Int): Shape(){
     override fun area():Double = side*side+0.0
+    override fun toString(): String {
+        return "override by to string"
+    }
 }
 class Triangle(private val side: Int): Shape(){
     override fun area():Double = 0.5*side*side
