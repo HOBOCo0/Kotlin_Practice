@@ -9,8 +9,10 @@ Interface
      properties and methods, that the contract type must follow and implement)
  --> one interface and class can implement multiple interfaces
  */
+interface Properties{
+    val length: Int
+}
 
-interface Perimeter{
-    val length:Int
+interface Perimeter:Properties{
     fun findPerimeter()
 }
