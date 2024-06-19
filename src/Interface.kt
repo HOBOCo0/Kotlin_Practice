@@ -14,5 +14,10 @@ interface Properties{
 }
 
 interface Perimeter:Properties{
+    // abstract method
     fun findPerimeter()
+    fun volume(){
+        // non-abstract method
+        println("The volume of shape is ")
+    }
 }
