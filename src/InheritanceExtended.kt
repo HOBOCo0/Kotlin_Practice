@@ -40,7 +40,7 @@ fun main() {
     println(mobile.size)
     mobile.display()
 
-    // little bit of polymorphism
+    // a little bit of polymorphism
     val mobile2:Mobile = Iphone("Iphone 15")
     mobile2.display()
 }
@@ -60,4 +60,4 @@ Parent construct called
 Child construct called
 Iphone 15 Display
 Iphone 15 display
- */
+*/

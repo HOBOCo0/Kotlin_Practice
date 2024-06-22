@@ -64,7 +64,7 @@ fun main() {
 
     // Anonymous Object
 
-    var obj3 = object{
+    val obj3 = object{
         private var x: Int = 10
         var y:Int = 201212
         fun printSum() = x+y
@@ -72,7 +72,7 @@ fun main() {
     println(obj3.y)
    println( obj3.printSum())
 
-    var obj4 = object:Addition(234,567),Multiply{
+    val obj4 = object:Addition(234,567),Multiply{
        private val a:Int = 10
         private val b:Int = 20
         override fun multiply() {
@@ -88,6 +88,7 @@ fun main() {
     println(obj4.multiply())
     println(obj4.Add())
 }
+
 /*
 -------------------------------output---------------------------------------
 10
