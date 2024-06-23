@@ -4,3 +4,4 @@ public class Main {
         MyClass.MyObject.f(10,30);
     }
 }
+
